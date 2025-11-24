@@ -16,6 +16,27 @@ document.addEventListener("wheel", (e) => {
     main.scrollTop += e.deltaY;
 });
 
+/* TO TOP */
+const btn = document.getElementById("backToTop");
+const main = document.querySelector("main");
+
+// aparecer/desaparecer
+main.addEventListener("scroll", () => {
+    if (main.scrollTop > 300) {
+        btn.classList.add("show");
+    } else {
+        btn.classList.remove("show");
+    }
+});
+
+// voltar ao topo
+btn.addEventListener("click", () => {
+    main.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
+
 /* GIRO NO SPAN DO ALURA */
 
 const spanHolder = document.querySelector('.span-holder');
