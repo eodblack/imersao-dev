@@ -17,6 +17,7 @@ Este é um projeto de uma página web estática que funciona como uma base de co
 
 
 [▶️ Ver vídeo no Google Drive](https://drive.google.com/file/d/1QRx7BEwX6tPNFnKyukiM4Fr4lmH9dpoj/view?usp=sharing)
+[▶️ Ver site](https://6923ca972efddb3a400a3911--imersao-dev.netlify.app/)
 
 ## ✨ Funcionalidades
 
