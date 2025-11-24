@@ -62,5 +62,341 @@
         "data": "2025-02-25",
         "imagem": "src/img/vs.webp",
         "link": "posts/graphql-vs-rest.html"
+    },
+    {
+        "titulo": "O Futuro é Generativo: Como a IA está mudando o mundo",
+        "resumo": "Uma análise sobre o impacto dos modelos de linguagem como Gemini na sociedade e no mercado de trabalho.",
+        "autor": "Ana Silva",
+        "data": "2025-03-02",
+        "imagem": "src/img/ia.jpeg",
+        "link": "posts/futuro-generativo-ia.html"
+    },
+    {
+        "titulo": "CI/CD Desmistificado com GitHub Actions",
+        "resumo": "Aprenda a criar um pipeline de integração e entrega contínua para automatizar o deploy de suas aplicações.",
+        "autor": "Bruno Martins",
+        "data": "2025-03-05",
+        "imagem": "src/img/cd.jpg",
+        "link": "posts/ci-cd-github-actions.html"
+    },
+    {
+        "titulo": "Rust: Por que a segurança de memória importa?",
+        "resumo": "Descubra como o Rust resolve problemas de gerenciamento de memória que afetam linguagens como C e C++.",
+        "autor": "Carla Dias",
+        "data": "2025-03-08",
+        "imagem": "src/img/rust.png",
+        "link": "posts/rust-seguranca-memoria.html"
+    },
+    {
+        "titulo": "Python em 2025: Ainda a melhor escolha para IA?",
+        "resumo": "Analisamos o ecossistema do Python e seus concorrentes no campo da Inteligência Artificial e Data Science.",
+        "autor": "Daniel Oliveira",
+        "data": "2025-03-11",
+        "imagem": "src/img/py.png",
+        "link": "posts/python-2025-ia.html"
+    },
+    {
+        "titulo": "10 Extensões do VS Code que vão aumentar sua produtividade",
+        "resumo": "Descubra ferramentas que vão acelerar seu desenvolvimento, desde formatação de código até a depuração.",
+        "autor": "Equipe Alura",
+        "data": "2025-03-14",
+        "imagem": "src/img/vs.webp",
+        "link": "posts/vscode-extensions.html"
+    },
+    {
+        "titulo": "APIs do Google: Integrando seus Apps com o poder da gigante",
+        "resumo": "Explore o universo de APIs do Google, de Maps e Authentication a Gemini e Cloud.",
+        "autor": "Visitante Convidado",
+        "data": "2025-03-17",
+        "imagem": "src/img/google-log.png",
+        "link": "posts/google-apis.html"
+    },
+    {
+        "titulo": "Ética em IA: Os desafios de criar máquinas pensantes",
+        "resumo": "Reflexões sobre os dilemas éticos, vieses e a responsabilidade na construção de sistemas de IA.",
+        "autor": "Ana Silva",
+        "data": "2025-03-20",
+        "imagem": "src/img/ia.jpeg",
+        "link": "posts/etica-ia.html"
+    },
+    {
+        "titulo": "Arquitetura Hexagonal (Ports and Adapters) em Node.js",
+        "resumo": "Aprenda a desacoplar sua lógica de negócio do framework com a arquitetura hexagonal.",
+        "autor": "Bruno Martins",
+        "data": "2025-03-23",
+        "imagem": "src/img/js.png",
+        "link": "posts/arquitetura-hexagonal-nodejs.html"
+    },
+    {
+        "titulo": "O que é DevOps? Uma cultura, não apenas um cargo",
+        "resumo": "Entenda os princípios por trás da cultura DevOps e como ela pode transformar seu time de desenvolvimento.",
+        "autor": "Carla Dias",
+        "data": "2025-03-26",
+        "imagem": "src/img/cd.jpg",
+        "link": "posts/o-que-e-devops.html"
+    },
+    {
+        "titulo": "Pandas 2.0: O que mudou na principal biblioteca de dados?",
+        "resumo": "Uma visão geral das novas features e melhorias de performance no Pandas para análise de dados.",
+        "autor": "Daniel Oliveira",
+        "data": "2025-03-29",
+        "imagem": "src/img/py.png",
+        "link": "posts/pandas-2.html"
+    },
+    {
+        "titulo": "Server-Side Rendering (SSR) com Next.js",
+        "resumo": "Melhore o SEO e a performance inicial de suas aplicações React com renderização no servidor.",
+        "autor": "Equipe Alura",
+        "data": "2025-04-01",
+        "imagem": "src/img/react-zus.webp",
+        "link": "posts/ssr-nextjs.html"
+    },
+    {
+        "titulo": "Trabalhando com Contêineres: Docker para Desenvolvedores",
+        "resumo": "Um guia de introdução ao Docker: como criar imagens e orquestrar contêineres para seu ambiente de dev.",
+        "autor": "Visitante Convidado",
+        "data": "2025-04-04",
+        "imagem": "src/img/cd.jpg",
+        "link": "posts/docker-para-devs.html"
+    },
+    {
+        "titulo": "Flutter: Desenvolvimento Nativo para Múltiplas Plataformas",
+        "resumo": "Construa apps para Android, iOS, Web e Desktop com um único código base usando Flutter e Dart.",
+        "autor": "Ana Silva",
+        "data": "2025-04-07",
+        "imagem": "src/img/google-log.png",
+        "link": "posts/flutter-multiplataforma.html"
+    },
+    {
+        "titulo": "Fine-tuning: Personalizando Modelos de IA para sua Necessidade",
+        "resumo": "Aprenda o que é o fine-tuning e como especializar um modelo de linguagem para tarefas específicas.",
+        "autor": "Bruno Martins",
+        "data": "2025-04-10",
+        "imagem": "src/img/ia.jpeg",
+        "link": "posts/fine-tuning-ia.html"
+    },
+    {
+        "titulo": "Micro-frontends: Vantagens e Desafios",
+        "resumo": "Uma análise aprofundada sobre a arquitetura de micro-frontends e quando ela faz sentido.",
+        "autor": "Carla Dias",
+        "data": "2025-04-13",
+        "imagem": "src/img/react-zus.webp",
+        "link": "posts/micro-frontends-vantagens.html"
+    },
+    {
+        "titulo": "Infraestrutura como Código (IaC) com Terraform",
+        "resumo": "Gerencie sua infraestrutura na nuvem de forma declarativa e versionada com Terraform.",
+        "autor": "Daniel Oliveira",
+        "data": "2025-04-16",
+        "imagem": "src/img/cd.jpg",
+        "link": "posts/iac-terraform.html"
+    },
+    {
+        "titulo": "Programação Funcional: Um Paradigma a se Considerar",
+        "resumo": "Entenda os conceitos de imutabilidade, funções puras e como eles podem tornar seu código mais previsível.",
+        "autor": "Equipe Alura",
+        "data": "2025-04-19",
+        "imagem": "src/img/js.png",
+        "link": "posts/programacao-funcional.html"
+    },
+    {
+        "titulo": "FastAPI: Criando APIs em Python com performance de Go",
+        "resumo": "Conheça o framework FastAPI e como ele utiliza tipagem para criar APIs rápidas e com documentação automática.",
+        "autor": "Visitante Convidado",
+        "data": "2025-04-22",
+        "imagem": "src/img/py.png",
+        "link": "posts/fastapi-python.html"
+    },
+    {
+        "titulo": "Padrões de Concorrência em Go",
+        "resumo": "Explore goroutines e channels para escrever código concorrente de forma simples e segura.",
+        "autor": "Ana Silva",
+        "data": "2025-04-25",
+        "imagem": "src/img/go.png",
+        "link": "posts/concorrencia-go.html"
+    },
+    {
+        "titulo": "Svelte vs. React: Uma Nova Abordagem à Reatividade",
+        "resumo": "Svelte compila seu código em vez de usar um Virtual DOM. Entenda o que isso significa na prática.",
+        "autor": "Bruno Martins",
+        "data": "2025-04-28",
+        "imagem": "src/img/react-zus.webp",
+        "link": "posts/svelte-vs-react.html"
+    },
+    {
+        "titulo": "Desenvolvimento Remoto com VS Code",
+        "resumo": "Aprenda a usar o VS Code para desenvolver em contêineres Docker ou em máquinas remotas via SSH.",
+        "autor": "Carla Dias",
+        "data": "2025-05-01",
+        "imagem": "src/img/vs.webp",
+        "link": "posts/vscode-remoto.html"
+    },
+    {
+        "titulo": "Firebase: A plataforma completa para seu app",
+        "resumo": "De autenticação e banco de dados a hosting e functions, conheça o ecossistema Firebase.",
+        "autor": "Daniel Oliveira",
+        "data": "2025-05-04",
+        "imagem": "src/img/google-log.png",
+        "link": "posts/firebase-plataforma.html"
+    },
+    {
+        "titulo": "Computação Quântica: O que um dev precisa saber?",
+        "resumo": "Uma introdução aos conceitos básicos da computação quântica e seu potencial para o futuro.",
+        "autor": "Equipe Alura",
+        "data": "2025-05-07",
+        "imagem": "src/img/ia.jpeg",
+        "link": "posts/computacao-quantica.html"
+    },
+    {
+        "titulo": "Design Systems: Consistência e Escalabilidade para seu UI",
+        "resumo": "O que são Design Systems e como eles podem ajudar a criar produtos digitais mais coesos e eficientes.",
+        "autor": "Visitante Convidado",
+        "data": "2025-05-10",
+        "imagem": "src/img/cd.jpg",
+        "link": "posts/design-systems.html"
+    },
+    {
+        "titulo": "Clean Architecture: Mantendo seu código limpo e testável",
+        "resumo": "Princípios da Clean Architecture para criar sistemas que são fáceis de manter e evoluir.",
+        "autor": "Ana Silva",
+        "data": "2025-05-13",
+        "imagem": "src/img/js.png",
+        "link": "posts/clean-architecture.html"
+    },
+    {
+        "titulo": "Observabilidade: Logs, Métricas e Traces",
+        "resumo": "Entenda os três pilares da observabilidade e como eles ajudam a monitorar e depurar sistemas complexos.",
+        "autor": "Bruno Martins",
+        "data": "2025-05-16",
+        "imagem": "src/img/cd.jpg",
+        "link": "posts/observabilidade.html"
+    },
+    {
+        "titulo": "Tauri: Aplicativos Desktop com Rust e Tecnologias Web",
+        "resumo": "Construa aplicativos desktop leves e seguros usando Rust no backend e sua framework web preferida no frontend.",
+        "autor": "Carla Dias",
+        "data": "2025-05-19",
+        "imagem": "src/img/rust.png",
+        "link": "posts/tauri-rust.html"
+    },
+    {
+        "titulo": "Tipagem em Python: Vale a pena o esforço?",
+        "resumo": "Uma discussão sobre o uso de type hints em Python e os benefícios para a manutenibilidade do código.",
+        "autor": "Daniel Oliveira",
+        "data": "2025-05-22",
+        "imagem": "src/img/py.png",
+        "link": "posts/tipagem-python.html"
+    },
+    {
+        "titulo": "gRPC: Comunicação de alta performance entre microsserviços",
+        "resumo": "Conheça o gRPC, uma alternativa ao REST para comunicação interna entre serviços.",
+        "autor": "Equipe Alura",
+        "data": "2025-05-25",
+        "imagem": "src/img/go.png",
+        "link": "posts/grpc-microsservicos.html"
+    },
+    {
+        "titulo": "Deno: Um ambiente de execução seguro para JavaScript",
+        "resumo": "Criado pelo autor do Node.js, Deno busca corrigir os problemas de design de seu antecessor.",
+        "autor": "Visitante Convidado",
+        "data": "2025-05-28",
+        "imagem": "src/img/js.png",
+        "link": "posts/deno-runtime.html"
+    },
+    {
+        "titulo": "GitHub Copilot: Amigo ou inimigo do desenvolvedor?",
+        "resumo": "Uma análise sobre o impacto das IAs de geração de código na produtividade e no aprendizado.",
+        "autor": "Ana Silva",
+        "data": "2025-06-01",
+        "imagem": "src/img/vs.webp",
+        "link": "posts/github-copilot.html"
+    },
+    {
+        "titulo": "Progressive Web Apps (PWAs): O melhor de dois mundos",
+        "resumo": "Transforme sua aplicação web em uma experiência similar a um app nativo com PWAs.",
+        "autor": "Bruno Martins",
+        "data": "2025-06-04",
+        "imagem": "src/img/google-log.png",
+        "link": "posts/pwa.html"
+    },
+    {
+        "titulo": "Vetores de Embedding: O segredo dos buscadores modernos",
+        "resumo": "Entenda como textos e imagens são transformados em vetores para buscas semânticas e sistemas de recomendação.",
+        "autor": "Carla Dias",
+        "data": "2025-06-07",
+        "imagem": "src/img/ia.jpeg",
+        "link": "posts/vetores-embedding.html"
+    },
+    {
+        "titulo": "State Machines e XState para UIs complexas",
+        "resumo": "Modele os estados da sua interface de forma robusta e previsível com máquinas de estado e XState.",
+        "autor": "Daniel Oliveira",
+        "data": "2025-06-10",
+        "imagem": "src/img/react-zus.webp",
+        "link": "posts/xstate-ui.html"
+    },
+    {
+        "titulo": "Testes de Software: Do Unitário ao End-to-End",
+        "resumo": "Entenda a pirâmide de testes e a importância de cada tipo de teste para garantir a qualidade do seu software.",
+        "autor": "Equipe Alura",
+        "data": "src/img/cd.jpg",
+        "imagem": "src/img/cd.jpg",
+        "link": "posts/testes-de-software.html"
+    },
+    {
+        "titulo": "KISS, DRY, YAGNI: Princípios para um código melhor",
+        "resumo": "Relembre os princípios fundamentais do desenvolvimento de software que todo dev deveria conhecer.",
+        "autor": "Visitante Convidado",
+        "data": "2025-06-16",
+        "imagem": "src/img/js.png",
+        "link": "posts/principios-codigo.html"
+    },
+    {
+        "titulo": "Construindo CLIs (Command-Line Interfaces) com Rust",
+        "resumo": "Aprenda a criar ferramentas de linha de comando rápidas e seguras com a ajuda do Rust.",
+        "autor": "Ana Silva",
+        "data": "2025-06-19",
+        "imagem": "src/img/rust.png",
+        "link": "posts/cli-rust.html"
+    },
+    {
+        "titulo": "Jupyter Notebooks: O ambiente ideal para Data Science",
+        "resumo": "Explore os recursos dos Jupyter Notebooks para análise de dados, visualização e prototipagem de modelos.",
+        "autor": "Bruno Martins",
+        "data": "2025-06-22",
+        "imagem": "src/img/py.png",
+        "link": "posts/jupyter-notebooks.html"
+    },
+    {
+        "titulo": "Programação Reativa com RxJS",
+        "resumo": "Lide com fluxos de dados assíncronos de forma elegante e poderosa com a programação reativa.",
+        "autor": "Carla Dias",
+        "data": "2025-06-25",
+        "imagem": "src/img/react-zus.webp",
+        "link": "posts/rxjs-reativa.html"
+    },
+    {
+        "titulo": "Acessibilidade Web (a11y): Desenvolvendo para todos",
+        "resumo": "A importância da acessibilidade e dicas práticas para tornar suas aplicações web utilizáveis por mais pessoas.",
+        "autor": "Daniel Oliveira",
+        "data": "2025-06-28",
+        "imagem": "src/img/google-log.png",
+        "link": "posts/acessibilidade-web.html"
+    },
+    {
+        "titulo": "Pair Programming: Como programar em dupla de forma eficaz",
+        "resumo": "Dicas e técnicas para tirar o máximo proveito da programação em par, seja presencial ou remotamente.",
+        "autor": "Equipe Alura",
+        "data": "2025-07-01",
+        "imagem": "src/img/vs.webp",
+        "link": "posts/pair-programming.html"
+    },
+    {
+        "titulo": "Carreira em Tech: Especialista vs. Generalista",
+        "resumo": "Uma discussão sobre os diferentes caminhos de carreira em tecnologia e qual pode ser o melhor para você.",
+        "autor": "Visitante Convidado",
+        "data": "2025-07-04",
+        "imagem": "src/img/cd.jpg",
+        "link": "posts/carreira-tech.html"
     }
 ]
