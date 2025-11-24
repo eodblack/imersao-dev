@@ -1,0 +1,66 @@
+[
+    {
+        "titulo": "Uma introdução a scripts de build",
+        "resumo": "JavaScript continua sendo a linguagem mais usada no desenvolvimento web, com evolução constante no ecossistema.",
+        "autor": "Alura",
+        "data": "2025-01-18",
+        "imagem": "src/img/js.jpg",
+        "link": "https://www.alura.com.br/artigos/uma-introducao-a-scripts-de-build"
+    },
+    {
+        "titulo": "O que é Python? — um guia completo para iniciar nessa linguagem de programação",
+        "resumo": "Python é simples, poderoso e ideal para ciência de dados, automação e inteligência artificial.",
+        "autor": "Danilo Junio",
+        "data": "2025-01-10",
+        "imagem": "src/img/py.png",
+        "link": "https://www.alura.com.br/artigos/python"
+    },
+    {
+        "titulo": "Primeiros passos em Inteligência Artificial (IA)?",
+        "resumo": "Um guia direto e prático explicando o que é IA, como funciona e onde ela é usada.",
+        "autor": "Alura",
+        "data": "2025-01-05",
+        "imagem": "src/img/ia.jpeg",
+        "link": "https://www.alura.com.br/artigos/primeiros-passos-em-inteligencia-artificial-ia"
+    },
+    {
+        "titulo": "Sua jornada de estudos de programação na Alura",
+        "resumo": "Não sabe por onde começar seus estudos por aqui? Este é um pequeno guia, que pode te ajudar a encontrar o conteúdo ideal para você aqui na Alura.",
+        "autor": "Alura",
+        "data": "2025-02-01",
+        "imagem": "src/img/rust.png",
+        "link": "https://www.alura.com.br/artigos/sua-jornada-estudos-de-programacao-alura"
+    },
+    {
+        "titulo": "WebAssembly: O Futuro da Web",
+        "resumo": "Entenda o que é WebAssembly (Wasm) e como ele está revolucionando a performance de aplicações web.",
+        "autor": "Carlos Pereira",
+        "data": "2025-02-05",
+        "imagem": "src/img/webassembly-pic.png",
+        "link": "posts/webassembly-futuro.html"
+    },
+    {
+        "titulo": "Microsserviços com Go",
+        "resumo": "Aprenda a construir microsserviços rápidos e eficientes utilizando a simplicidade e o poder da linguagem Go.",
+        "autor": "Mariana Costa",
+        "data": "2025-02-12",
+        "imagem": "src/img/go.png",
+        "link": "posts/go-microsservicos.html"
+    },
+    {
+        "titulo": "State Management em React com Zustand",
+        "resumo": "Descubra como o Zustand oferece uma solução de gerenciamento de estado simples e poderosa para aplicações React.",
+        "autor": "Lucas Martins",
+        "data": "2025-02-18",
+        "imagem": "src/img/react-zus.webp",
+        "link": "posts/zustand-react.html"
+    },
+    {
+        "titulo": "GraphQL vs. REST: Qual escolher?",
+        "resumo": "Uma análise comparativa entre GraphQL e REST para te ajudar a decidir qual a melhor abordagem para sua próxima API.",
+        "autor": "Beatriz Lima",
+        "data": "2025-02-25",
+        "imagem": "src/img/vs.webp",
+        "link": "posts/graphql-vs-rest.html"
+    }
+]
