@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); /* Importa a fonte Quicksand do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&display=swap');
 
@@ -7,10 +7,10 @@
 }
 
 :root {
-    --primary-color: #8ab4f8; /* Cor primária (azul claro) */
-    --secondary-color: #e8eaed; /* Cor secundária (cinza claro) */
-    --tertiary-color: #9aa0a6; /* Cor terciária (cinza médio) */
-    --bg-color: #202124; /* Cor de fundo (cinza escuro) */
+    --primary-color: #8ab4f8;
+    --secondary-color: #e8eaed;
+    --tertiary-color: #9aa0a6;
+    --bg-color: #202124;
 
     --tcb: 0.5s cubic-bezier(0.33, 0.83, 0.99, 0.98);
 
@@ -19,24 +19,24 @@
 }
 
 :root[data-theme="light"] {
-    --primary-color: #8ab4f8;   /* azul google clean */
-    --secondary-color: #202124; /* texto escuro */
-    --tertiary-color: #5f6368;  /* cinza suave */
-    --bg-color: #ffffff;        /* fundo claro */
+    --primary-color: #8ab4f8;
+    --secondary-color: #202124;
+    --tertiary-color: #5f6368;  
+    --bg-color: #ffffff;
 }
 
 body {
-    margin: 0; /* Remove a margem padrão do body */
-    background: var(--bg-color); /* Define a cor de fundo usando uma variável */
-    color: var(--secondary-color); /* Define a cor do texto padrão usando uma variável */
-    font-family: "Quicksand", sans-serif; /* Define a família da fonte */
+    margin: 0;
+    background: var(--bg-color);
+    color: var(--secondary-color);
+    font-family: "Quicksand", sans-serif;
     
         overflow-x: hidden;
         padding-inline: 8px;
 }
 
 .theme-button {
-    display: flex;    /* torna clicável e alinhado */
+    display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
@@ -81,20 +81,20 @@ body {
 }
 
 header {
-    display: flex; /* Habilita o layout flexbox */
+    display: flex;
     flex-direction: row;
-    align-items: center; /* Alinha os itens verticalmente ao centro */
-    justify-content: space-between; /* Distribui os itens com espaço ao redor */
+    align-items: center;
+    justify-content: space-between;
 
     gap: 1rem;
 
-    position: fixed; /* Mantém o cabeçalho fixo no topo ao rolar a página */
-    top: 0; /* Posição do topo quando sticky */
+    position: fixed;
+    top: 0;
     right: .5rem;
     left: 5.5rem;
 
-    background: var(--bg-color); /* Cor de fundo do cabeçalho */
-    z-index: 10; /* Define a ordem de empilhamento para ficar sobre outros elementos */
+    background: var(--bg-color);
+    z-index: 10;
     margin: 0 320px;
     height: 180px;
 
@@ -167,14 +167,13 @@ header {
     transition: all var(--tcb);
 }
 
-[data-theme="light"].search input {
+[data-theme="light"] .search input {
     color: black;
 }
 
-[data-theme="dark"].search input {
+[data-theme="dark"] .search input {
     color: white;
 }
-
 
 .search .search-btn {
     display: flex;
@@ -1093,8 +1092,8 @@ article:hover .link-to {
 }
 
 .blog-post .thumb {
+    aspect-ratio: 1/1;
     width: 200px;
-    height: 100%;
     background-color: white;
     border-radius: .5rem;
     flex-shrink: 0;
@@ -1114,10 +1113,28 @@ article:hover .link-to {
     margin: 0 0 0.25rem;
 }
 
-.blog-info .post-meta {
+.blog-info .meta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     font-size: 0.8rem;
-    color: var(--tertiary-color);
+
+    border-radius: .5rem;
     margin-bottom: 0.5rem;
+
+    box-shadow: inset 0 0 1px .5px var(--primary-color);
+
+    padding: .5rem;
+    max-width: 240px;
+}
+
+[data-theme="light"] .blog-info .meta {
+    color: black;
+}
+
+[data-theme="dark"] .blog-info .meta {
+    color: white;
 }
 
 .blog-info .post-resumo {
@@ -1127,14 +1144,28 @@ article:hover .link-to {
 }
 
 .blog-info .blog-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     margin-top: 1rem;
     color: var(--primary-color);
     text-decoration: none;
     font-weight: 600;
+
+    width: 104px;
+    padding: 1rem;
+    border-radius: .5rem;
+    background-color: transparent;
+
+    transform: translateX(-1rem);
+    transition: all var(--tcb);
 }
 
-.blog-info .blog-link:hover {
-    text-decoration: underline;
+.blog-post:hover .blog-link {
+    transform: translateX(0);
+    background-color: var(--primary-color);
+    color: black;
 }
 
 /*PARTNERS*/
