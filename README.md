@@ -2,8 +2,12 @@
 
 Este é um projeto de uma página web estática que funciona como uma base de conhecimento pessoal ou portfólio. Ele exibe uma coleção de projetos e artigos em formato de cards, com funcionalidade de busca em tempo real para filtrar o conteúdo.
 
-![Screenshot da Aplicação](src/img/bg-hero.1762108430.png)
-*(Sugestão: troque o caminho acima pelo de um screenshot mais representativo da sua aplicação)*
+![Screenshot da Aplicação]
+<img width="1919" height="1079" alt="Captura de tela 2025-11-23 222502" src="https://github.com/user-attachments/assets/da301cc4-f646-4b40-9b08-644605d40b1d" />
+<img width="1919" height="1079" alt="Captura de tela 2025-11-23 222523" src="https://github.com/user-attachments/assets/430968a5-a65c-4d8d-b39f-1dbcefceaeb7" />
+<img width="1919" height="1079" alt="Captura de tela 2025-11-23 222550" src="https://github.com/user-attachments/assets/08da6972-488f-4b41-90b3-a5c2eb5b5eba" />
+<img width="1919" height="1079" alt="Captura de tela 2025-11-23 222559" src="https://github.com/user-attachments/assets/769513a2-5931-4098-a32b-de94696aad3f" />
+
 
 ## ✨ Funcionalidades
 
