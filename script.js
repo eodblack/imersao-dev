@@ -97,7 +97,7 @@ spanHolder.addEventListener('mouseleave', () => {
 
 document.addEventListener("DOMContentLoaded", function() {
   const element = document.getElementById("typing");
-  const texts = ['Codar.', 'Criar', 'Transformar.', 'Revolucionar.']; // agora sem as chaves
+  const texts = ['Codar.', 'Criar.', 'Transformar.', 'Revolucionar.']; // agora sem as chaves
   let textIndex = 0;
   let charIndex = 0;
   let isDeleting = false;
